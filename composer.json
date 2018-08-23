@@ -1,0 +1,62 @@
+{
+  "name": "cybercog/laravel-nova-ban",
+  "description": "A Laravel Nova banning functionality for your application.",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "cog",
+    "laravel",
+    "nova",
+    "eloquent",
+    "trait",
+    "justice",
+    "user",
+    "ban",
+    "block",
+    "restrict",
+    "forbid",
+    "arrest",
+    "jail"
+  ],
+  "authors": [
+    {
+      "name": "Anton Komarev",
+      "email": "a.komarev@cybercog.su",
+      "homepage": "https://ell.folio.su",
+      "role": "Developer"
+    }
+  ],
+  "homepage": "https://github.com/cybercog/laravel-nova-ban",
+  "support": {
+    "email": "open@cybercog.su",
+    "issues": "https://github.com/cybercog/laravel-nova-ban/issues",
+    "wiki": "https://github.com/cybercog/laravel-nova-ban/wiki",
+    "source": "https://github.com/cybercog/laravel-nova-ban",
+    "docs": "https://github.com/cybercog/laravel-nova-ban/wiki"
+  },
+  "require": {
+    "php": "^7.1.3",
+    "laravel/nova": "*",
+    "cybercog/laravel-ban": "^3.0",
+    "symfony/process": "^4.1"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.6",
+    "phpunit/phpunit": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cog\\Laravel\\Nova\\Ban\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Cog\\Tests\\Laravel\\Nova\\Ban\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
