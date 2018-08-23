@@ -21,7 +21,7 @@ use Illuminate\Support\Collection;
 use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
 
-class UnbanUser extends Action
+class Unban extends Action
 {
     use InteractsWithQueue;
     use Queueable;

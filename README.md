@@ -10,6 +10,74 @@ First, pull in the package through Composer:
 $ composer require cybercog/laravel-nova-ban
 ```
 
+## Usage
+
+### Prepare bannable model
+
+```php
+use Cog\Contracts\Ban\Bannable as BannableContract;
+use Cog\Laravel\Ban\Traits\Bannable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class User extends Authenticatable implements BannableContract
+{
+    use Bannable;
+}
+```
+
+### Prepare bannable model database table
+
+Bannable model must have `nullable timestamp` column named `banned_at`. This value used as flag and simplify checks if user was banned. If you are trying to make default Laravel User model to be bannable you can use example below.
+
+#### Create a new migration file
+
+```sh
+$ php artisan make:migration add_banned_at_column_to_users_table
+```
+
+Then insert the following code into migration file:
+
+```php
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddBannedAtColumnToUsersTable extends Migration
+{
+    public function up()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->timestamp('banned_at')->nullable();
+        });
+    }
+    
+    public function down()
+    {
+        Schema::table('users', function (Blueprint $table) {
+            $table->dropColumn('banned_at');
+        });
+    }
+}
+```
+
+Apply new migration.
+
+#### Register Ban Actions in Nova Resource
+
+Register `Ban` and `Unban` actions inside your `Bannable` Model's Resource.
+
+```php
+public function actions(Request $request)
+{
+    return [
+        new Ban(),
+        new Unban(),
+    ];
+}
+```
+
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
@@ -39,7 +107,7 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## License
 
-- `Laravel Ban` package is open-sourced software licensed under the [MIT License](LICENSE) by Anton Komarev.
+- `Laravel Nova Ban` package is open-sourced software licensed under the [MIT License](LICENSE) by Anton Komarev.
 - `Fat Boss In Jail` image licensed under [Creative Commons 3.0](https://creativecommons.org/licenses/by/3.0/us/) by Gan Khoon Lay.
 
 ## About CyberCog
