@@ -2,6 +2,25 @@
 
 ![cog-laravel-nova-ban](https://user-images.githubusercontent.com/1849174/28749192-fe2d2cb4-74c7-11e7-955e-9c48e81106c2.png)
 
+## Introduction
+
+Behind the scenes [cybercog/laravel-ban](https://https://github.com/cybercog/laravel-ban) is used.
+
+## Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Prepare bannable model](#prepare-bannable-model)
+  - [Prepare bannable model database table](#prepare-bannable-model-database-table)
+  - [Register Ban Actions in Nova Resource](#register-ban-actions-in-nova-resource)
+- [Contributing](#contributing)
+- [Testing](#testing)
+- [Security](#security)
+- [Contributors](#contributors)
+- [Alternatives](#alternatives)
+- [License](#license)
+- [About CyberCog](#about-cybercog)
+
 ## Installation
 
 First, pull in the package through Composer:
@@ -64,7 +83,7 @@ class AddBannedAtColumnToUsersTable extends Migration
 
 Apply new migration.
 
-#### Register Ban Actions in Nova Resource
+### Register Ban Actions in Nova Resource
 
 Register `Ban` and `Unban` actions inside your `Bannable` Model's Resource.
 
