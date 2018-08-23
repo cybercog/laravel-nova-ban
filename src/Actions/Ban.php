@@ -23,7 +23,7 @@ use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Fields\DateTime;
 use Laravel\Nova\Fields\Text;
 
-class Ban extends Action
+class Ban extends Action implements ShouldQueue
 {
     use InteractsWithQueue;
     use Queueable;

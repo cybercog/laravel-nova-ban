@@ -1,10 +1,18 @@
 # Laravel Nova Ban
 
-![cog-laravel-nova-ban](https://user-images.githubusercontent.com/1849174/28749192-fe2d2cb4-74c7-11e7-955e-9c48e81106c2.png)
+![cog-laravel-nova-ban](https://user-images.githubusercontent.com/1849174/44547664-86618780-a724-11e8-8c07-b3ca19bfe5cd.png)
+
+<p align="center">
+<a href="https://github.com/cybercog/laravel-nova-ban/releases"><img src="https://img.shields.io/github/release/cybercog/laravel-nova-ban.svg?style=flat-square" alt="Releases"></a>
+<a href="https://styleci.io/repos/145874233"><img src="https://styleci.io/repos/145874233/shield" alt="StyleCI"></a>
+<a href="https://github.com/cybercog/laravel-nova-ban/blob/master/LICENSE"><img src="https://img.shields.io/github/license/cybercog/laravel-nova-ban.svg?style=flat-square" alt="License"></a>
+</p>
 
 ## Introduction
 
 Behind the scenes [cybercog/laravel-ban](https://github.com/cybercog/laravel-ban) is used.
+
+![laravel-nova-ban-preview](https://user-images.githubusercontent.com/1849174/44547881-1b648080-a725-11e8-9472-bad1486c06f0.png)
 
 ## Contents
 
