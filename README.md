@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Behind the scenes [cybercog/laravel-ban](https://https://github.com/cybercog/laravel-ban) is used.
+Behind the scenes [cybercog/laravel-ban](https://github.com/cybercog/laravel-ban) is used.
 
 ## Contents
 
