@@ -14,14 +14,13 @@ declare(strict_types=1);
 namespace Cog\Laravel\Nova\Ban\Actions;
 
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
 
-class Unban extends Action implements ShouldQueue
+class Unban extends Action
 {
     use InteractsWithQueue;
     use Queueable;
