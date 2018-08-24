@@ -1,6 +1,6 @@
 # Laravel Nova Ban
 
-![cog-laravel-nova-ban](https://user-images.githubusercontent.com/1849174/44547664-86618780-a724-11e8-8c07-b3ca19bfe5cd.png)
+![cog-laravel-nova-ban](https://user-images.githubusercontent.com/1849174/44558292-ffc0a080-a74b-11e8-8699-a79de865910d.png)
 
 <p align="center">
 <a href="https://github.com/cybercog/laravel-nova-ban/releases"><img src="https://img.shields.io/github/release/cybercog/laravel-nova-ban.svg?style=flat-square" alt="Releases"></a>
