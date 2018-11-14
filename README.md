@@ -99,8 +99,8 @@ Register `Ban` and `Unban` actions inside your `Bannable` Model's Resource.
 public function actions(Request $request)
 {
     return [
-        new Ban(),
-        new Unban(),
+        new \Cog\Laravel\Nova\Ban\Actions\Ban(),
+        new \Cog\Laravel\Nova\Ban\Actions\Unban(),
     ];
 }
 ```
