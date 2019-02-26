@@ -37,12 +37,10 @@
   "require": {
     "php": "^7.1.3",
     "laravel/nova": "*",
-    "cybercog/laravel-ban": "^3.0",
+    "cybercog/laravel-ban": "^3.0|^4.0",
     "symfony/process": "^4.1"
   },
   "require-dev": {
-    "orchestra/testbench": "^3.6",
-    "phpunit/phpunit": "^7.1"
   },
   "autoload": {
     "psr-4": {
