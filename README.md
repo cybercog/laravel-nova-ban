@@ -33,7 +33,7 @@ Behind the scenes [cybercog/laravel-ban](https://github.com/cybercog/laravel-ban
 
 First, pull in the package through Composer:
 
-```sh
+```shell script
 $ composer require cybercog/laravel-nova-ban
 ```
 
@@ -58,7 +58,7 @@ Bannable model must have `nullable timestamp` column named `banned_at`. This val
 
 #### Create a new migration file
 
-```sh
+```shell script
 $ php artisan make:migration add_banned_at_column_to_users_table
 ```
 
@@ -113,7 +113,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 Run the tests with:
 
-```sh
+```shell script
 $ vendor/bin/phpunit
 ```
 
