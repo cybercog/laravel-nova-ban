@@ -31,7 +31,7 @@ Behind the scenes [cybercog/laravel-ban](https://github.com/cybercog/laravel-ban
 
 ## Installation
 
-First, pull in the package through Composer:
+Pull in the package through Composer.
 
 ```shell script
 $ composer require cybercog/laravel-nova-ban
@@ -139,11 +139,11 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## About CyberCog
 
-[CyberCog](https://cybercog.su) is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
+[CyberCog] is a Social Unity of enthusiasts. Research best solutions in product & software development is our passion.
 
 - [Follow us on Twitter](https://twitter.com/cybercog)
-- [Read our articles on Medium](https://medium.com/cybercog)
 
 <a href="https://cybercog.su"><img src="https://cloud.githubusercontent.com/assets/1849174/18418932/e9edb390-7860-11e6-8a43-aa3fad524664.png" alt="CyberCog"></a>
 
 [Anton Komarev]: https://komarev.com
+[CyberCog]: https://cybercog.su

@@ -19,11 +19,8 @@ Due to time constraints, we are not always able to respond as quickly as we woul
 
 ## Coding Guidelines
 
-This project comes with a configuration file for php-cs-fixer (.php_cs) that you can use to (re)format your sourcecode for compliance with this project's coding guidelines:
-
-```shell script
-$ vendor/bin/php-cs-fixer fix
-```
+This package attempts to comply with [PSR-4] autoloader, [PSR-1] basic coding standard and [PSR-12] coding style guide.
+If you notice compliance oversights, please send a patch via pull request.
 
 ## PHPUnit tests
 
@@ -35,4 +32,9 @@ $ vendor/bin/phpunit
 
 ## Reporting issues
 
-- [General problems](https://github.com/cybercog/laravel-nova-ban/issues)
+- [General problems]
+
+[PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+[PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
+[PSR-12]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-12-extended-coding-style-guide.md
+[General problems]: https://github.com/cybercog/laravel-nova-ban/issues
