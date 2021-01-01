@@ -8,7 +8,7 @@ All notable changes to `cybercog/laravel-nova-ban` will be documented in this fi
 
 ### Added
 
-- Added PHP 8.x support
+- ([#11]) Added PHP 8.x support
 
 ## [1.1.1] - 2020-03-11
 
@@ -26,7 +26,10 @@ All notable changes to `cybercog/laravel-nova-ban` will be documented in this fi
 
 - Initial release
 
-[Unreleased]: https://github.com/cybercog/laravel-ban/compare/1.2.0...master
-[1.2.0]: https://github.com/cybercog/laravel-ban/compare/1.1.1...1.2.0
-[1.1.1]: https://github.com/cybercog/laravel-ban/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/cybercog/laravel-ban/compare/1.0.0...1.1.0
+[Unreleased]: https://github.com/cybercog/laravel-nova-ban/compare/1.2.0...master
+[1.2.0]: https://github.com/cybercog/laravel-nova-ban/compare/1.1.1...1.2.0
+[1.1.1]: https://github.com/cybercog/laravel-nova-ban/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/cybercog/laravel-nova-ban/compare/1.0.0...1.1.0
+
+[#11]: https://github.com/cybercog/laravel-nova-ban/pull/11
+[#9]: https://github.com/cybercog/laravel-nova-ban/pull/9
