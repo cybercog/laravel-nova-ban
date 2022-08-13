@@ -123,8 +123,8 @@ If you discover any security related issues, please email open@cybercog.su inste
 
 ## Contributors
 
-| <a href="https://github.com/antonkomarev">![@antonkomarev](https://avatars.githubusercontent.com/u/1849174?s=110)<br />Anton Komarev</a> | <a href="https://github.com/tooshay">![@tooshay](https://avatars.githubusercontent.com/u/703589?s=110)<br />Roy Shay</a> |
-| :---: | :---: |
+| <a href="https://github.com/antonkomarev">![@antonkomarev](https://avatars.githubusercontent.com/u/1849174?s=110)<br />Anton Komarev</a> | <a href="https://github.com/ sergiy-petrov ">![@ sergiy-petrov ](https://avatars.githubusercontent.com/u/8986207?s=110)<br />Sergiy Petrov</a> | <a href="https://github.com/mvdnbrk">![@mvdnbrk](https://avatars.githubusercontent.com/u/802681?s=110)<br />Mark van den Broek</a> | <a href="https://github.com/tooshay">![@tooshay](https://avatars.githubusercontent.com/u/703589?s=110)<br />Roy Shay</a> |
+| :---: | :---: | :---: | :---: |
 
 [Laravel Nova Ban contributors list](../../contributors)
 
